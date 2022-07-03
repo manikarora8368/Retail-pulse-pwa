@@ -1,0 +1,52 @@
+.program {
+  &__container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  &__left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    div {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    .img__container {
+      height: 130px;
+      width: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      img {
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+  }
+  &__right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    .img__input {
+      width: 120px;
+      height: 160px;
+      border: 1px dashed #189ffb;
+      background-color: #f5fcff;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}

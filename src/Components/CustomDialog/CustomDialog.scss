@@ -1,0 +1,40 @@
+.dialog {
+  &__container {
+    padding: 24px;
+    display: flex;
+    max-height: 295px;
+    flex-direction: column;
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    align-self: center;
+  }
+  &__progress {
+    position: relative;
+    .progress__value {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 19px;
+      transform: translate(-50%, -50%);
+      div {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 10px;
+      }
+    }
+  }
+  &__btn {
+    align-self: center;
+    width: 100px !important;
+  }
+}

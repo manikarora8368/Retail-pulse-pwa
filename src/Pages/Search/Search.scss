@@ -1,0 +1,55 @@
+.search {
+  &__page {
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    align-items: center;
+    padding: 0px 16px;
+    .app__logo {
+      margin-top: 20vh;
+    }
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  &__heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin-bottom: 25px;
+    align-self: center;
+  }
+  &__inputContainer {
+    display: flex;
+    gap: 20px;
+  }
+}
+#input-with-icon-textfield {
+  font-size: 16px;
+}
+.noOutlet {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+  &__subheading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
