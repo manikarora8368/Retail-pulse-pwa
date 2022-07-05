@@ -72,7 +72,6 @@ self.addEventListener("install", (event) => {
         "/manifest.json",
         "/logo192.png",
         "/index.html",
-        "/",
         "/login",
       ]);
     })
