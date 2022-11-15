@@ -1,8 +1,14 @@
 .outlet {
   &__container {
     display: flex;
+    margin: auto;
     flex-direction: column;
     margin-bottom: 20px;
+    width: 50%;
+    @media only screen and (max-width: 26.25em) {
+      width: 100%;
+      margin: none;
+    }
   }
   &__name {
     align-self: center;

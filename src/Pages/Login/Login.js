@@ -46,6 +46,7 @@ const Login = (props) => {
               InputLabelProps={{ style: { fontSize: "1.5rem" } }}
               inputProps={{ style: { fontSize: "1.5rem" } }}
               value={username.value}
+              placeholder="user1"
               label="Username"
               variant="standard"
               required
@@ -68,6 +69,7 @@ const Login = (props) => {
                 className="login__input"
                 value={password.value}
                 variant="standard"
+                placeholder="password"
                 {...(password.error ? { error: true } : { error: false })}
                 InputLabelProps={{ style: { fontSize: "1.5rem" } }}
                 inputProps={{ style: { fontSize: "1.5rem" } }}

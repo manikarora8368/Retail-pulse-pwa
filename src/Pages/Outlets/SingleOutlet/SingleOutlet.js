@@ -38,6 +38,7 @@ const SingleOutlet = () => {
       );
     });
   };
+
   return (
     <div className="out__screen">
       <div className="outlet__wrapper">
@@ -67,7 +68,9 @@ const SingleOutlet = () => {
           variant="contained"
           className="out__button"
           onClick={handleFirebaseUpload}
-          {...(images.length > 0 ? { disabled: false } : { disabled: true })}
+          {...(images.length === outlet.programs.length
+            ? { disabled: false }
+            : { disabled: true })}
         >
           Upload Photos
         </Button>

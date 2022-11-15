@@ -64,6 +64,7 @@ const Search = () => {
             label="Search OL Code"
             value={searchCode}
             InputLabelProps={{ style: { fontSize: "1.5rem" } }}
+            placeholder="example value-2"
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
